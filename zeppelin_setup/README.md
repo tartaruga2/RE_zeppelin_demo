@@ -1,8 +1,14 @@
 # RE-tasks-march
 
-echo "# RE-tasks-march" >> README.md
+
 git init
-git add README.md
+
+git add zeppelin_setup/
+
+git add zeppelin_setup/*
+
 git commit -m "first commit"
-git remote add origin https://github.com/tartaruga2/RE-tasks-march.git
+
+git remote add origin https://github.com/tartaruga2/RE_zeppelin_demo.git
+
 git push -u origin master
